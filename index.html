@@ -3,10 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="https://f7e2c3f5e628bcaf7315-c98a8525c23bf1021e806077b04793b9.ssl.cf1.rackcdn.com/pixelatl.ico">
+  <link rel="apple-touch-icon" href="https://f7e2c3f5e628bcaf7315-c98a8525c23bf1021e806077b04793b9.ssl.cf1.rackcdn.com/applepixelatl.ico" type="image/png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El festival es una plataforma que favorece el intercambio de conocimientos y experiencias entre artistas y productores internacionales y locales.">
+  <link rel="author" href="https://www.pixelatl.com/" />
   <title>Pixelatl Festival 2014</title>
+
+  <!-- Le styles -->
+  <link href="./content/css/bootstrap.css" rel="stylesheet">
+  <link href="./content/css/custom.css" rel="stylesheet">  
+
+  <!-- Owl Carousel --> 
+  <link href="./content/owlgraphic.carousel/assets/css/custom.css" rel="stylesheet">
+  <link href="./content/owlgraphic.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+  <link href="./content/owlgraphic.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+  <!-- Owl Carousel -->
+  
+  <style type="text/css">
+     body {
+       padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+  </style>
+  <link href="./content/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <link href="./content/select2/select2.css" rel="stylesheet">  
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- Custom CSS Styles begin -->
+  
+  <!-- Custom CSS Styles end -->
+
+  <!-- https://css-tricks.com/the-script-tag/ -->
+  <script type="text/javascript">
+    //<![CDATA[
+    if (window.location.protocol != "https:" && window.location.href.indexOf("localhost") == -1)
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    //]]>
+</script> 
+
+
+
+  <style>
+  #owl-demo .item{
+      margin: 10px;
+      text-align: center;
+  }
+  </style>
+
 </head>
+
 <body>
   <p>Pixelatl Festival 2014</p>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="./content/jquery/jquery-1.11.0.min.js"></script>
+  <script src="./content/js/bootstrap.js"></script>
+  <script src="./content/js/jquery.browser.min.js"></script>      
+  <script src="./content/js/jquery.isotope.min.js"></script>      
+  <script src="./content/js/jquery.ba-bbq.min.js"></script>    
+  <script src="./content/select2/select2.min.js"></script>    
+  <!-- Owl Carousel -->
+  <script src="./content/owlgraphic.carousel/assets/js/application.js"></script>
+<script src="./content/owlgraphic.carousel/owl-carousel/owl.carousel.js"></script>    
+  <!-- Custom JavaScript plugins begin -->
+  @yield('pageScripts')
+  <!-- Custom JavaScript plugins end -->
 </body>
 </html>
